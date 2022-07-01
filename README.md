@@ -38,4 +38,21 @@
 
 </ul>
 <hr>
+<h2>⚙️ Como executar o projeto</h2>
+<ul>
+<li>Baixar o Node no seu computador</li>
+<li>Intala-lo na pasta que se encontra o projeto "potter.js"
 
+```
+npm install prompt-sync
+```
+
+</li>
+<li>Rodar o projeto no prompt
+</li>
+
+
+```
+node potter
+```
+</ul>
