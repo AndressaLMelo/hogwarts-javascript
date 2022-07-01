@@ -1,7 +1,5 @@
 const prompt = require("prompt-sync")();
 
-// declara os vetores
-
 const personagem = [];
 const casa = [];
 const especie = [];
@@ -147,7 +145,7 @@ function excluir() {
   }
 
   if (numExcluir > personagem.length) {
-    console.log("Nenhum aluno não encontrado! 🤷🏽");
+    console.log("💥Nenhum aluno não encontrado!💥");
     return;
   }
   const excluido = personagem.splice(numExcluir - 1, 1);
